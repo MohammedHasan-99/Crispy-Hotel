@@ -75,6 +75,14 @@ display: none !important;
 
    
 }
+.tab:hover{
+    color: white;
+    
+}
+.new-tab:hover{
+    color: white;
+    
+}
 
 h1{
     font-weight: 600 !important;

@@ -13,6 +13,14 @@
     <title>Document</title>
 </head>
 <body>
+    <style>
+        .swap .row:nth-child(even){
+            flex-direction: row-reverse;
+        }
+        .swapR .row:nth-child(odd){
+            flex-direction: row-reverse;
+        }
+    </style>
     <header class="py-3" style="background-color: #F75A40;">
         <div class="container d-flex justify-content-between align-items-center" style="padding: 0 15px;">
             <a class="d-flex justify-content-center align-items-center" style="text-decoration: none;">
@@ -120,9 +128,9 @@
 
                         <!-- Indicators/dots -->
                         <div class="carousel-indicators" style="display: flex !important; position:relative !important; margin:0 !important; justify-content: flex-start; padding-top: 30px;">
-                            <button style="background-color: #636464 !important;" type="button" data-bs-target="#demo" data-bs-slide-to="0" class="slider active"></button>
-                            <button style="background-color: #636464 !important;" type="button" data-bs-target="#demo" data-bs-slide-to="1" class="slider"></button>
-                            <button style="background-color: #636464 !important;" type="button" data-bs-target="#demo" data-bs-slide-to="2" class="slider"></button>
+                            <button style="background-color: #636464;" type="button" data-bs-target="#demo" data-bs-slide-to="0" class="slider active"></button>
+                            <button style="background-color: #636464;" type="button" data-bs-target="#demo" data-bs-slide-to="1" class="slider"></button>
+                            <button style="background-color: #636464;" type="button" data-bs-target="#demo" data-bs-slide-to="2" class="slider"></button>
                         </div>
                         
                         
@@ -139,12 +147,16 @@
         </div>
     </div>
     
-    <div class="container" style="padding-bottom: 48px important;">
+    <div class="swapR container" style="padding-bottom: 48px important;">
         <div class="d-flex justify-content-center align-items-center my-5">
             <h1 class="head headding">About Us</h1>
         </div>
 
         <div class="container row data-row" style="padding-bottom: 48px;" >
+            <div class="col-lg-4" style="padding: 0 1em;">
+                <img style="max-width: 100%; max-height: 100%!important; padding: 0 1em; " src="banner1.jpg" alt="">
+
+            </div>
             <div class="col-lg-8 h-100">
                 <h2 class="card-title">Enjoy The Greatest Pleasure In Our Hotel!</h2>
                 <p class="card-para">Suspendisse id felis sed felis tincidunt finibus. Nulla sed justo tellus. Donec ut felis ante. Quisque ac sapien quis orci pulvinar finibus quis eu urna. onec consequat sapien ut leo cursus rhoncus. Nullam dui mi, vulputate ac metus semper Nullam dui mi. Vestibulum ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur quis.</p>
@@ -173,10 +185,7 @@
                     </div>
                 </ul>
             </div>
-            <div class="col-lg-4" style="padding: 0 1em;">
-                <img style="max-width: 100%; max-height: 100%!important; padding: 0 1em; " src="banner1.jpg" alt="">
-
-            </div>
+            
         </div>
 
         <div class="container row" style="padding-bottom: 48px;">
@@ -297,7 +306,7 @@
     </div>
 
     <div class="py-5">
-        <div class="container">
+        <div class="container swap">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="head headding mb-5">Latest News</h1>
             </div>
@@ -311,15 +320,19 @@
                     <p class="post-para">onec consequat sapien ut leo cursus rhoncus. Nullam duit mi, vulputate ac metus semper Nullam dui mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices morbi posuere cubilia Curae; Curabitur quis luctus lectus. leo et cursus rhoncus. Nullam dui mi, vulputate cursus.</p>
                     <a href="View Post" class="btn post-btn">View Post</a>
                 </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-lg-7 mb-lg-5 m-0">
+                    <img src="/blog1.jpg" class="m-0" style="max-width: 100%; width: 100%;" alt="">
+                </div>
                 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start">
                     <p class="post-date">March 3, 2019.</p>
                     <h3 class="post-title">Nullam Dui Mi, Vulputate Ac Cursus.</h3>
                     <p class="post-para">onec consequat sapien ut leo cursus rhoncus. Nullam duit mi, vulputate ac metus semper Nullam dui mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices morbi posuere cubilia Curae; Curabitur quis luctus lectus. leo et cursus rhoncus. Nullam dui mi, vulputate cursus.</p>
                     <a href="View Post" class="btn post-btn">View Post</a>
                 </div>
-                <div class="col-lg-7 mb-lg-5 m-0">
-                    <img src="/blog1.jpg" class="m-0" style="max-width: 100%; width: 100%;" alt="">
-                </div>
+                
             </div>
 
         </div>
