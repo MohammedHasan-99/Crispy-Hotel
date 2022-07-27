@@ -1,0 +1,240 @@
+.logo{
+    font-size: 2em;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 0; ;
+     text-decoration: none;
+}
+.tab{
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+
+   
+}
+.nav-btn{
+    background-color: #fff !important;
+    color: #F85A40 !important;
+    border-radius: 5px;
+    padding: 0.4em 1.7em !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1em;
+    background: #fff;
+    box-shadow: 0 0px 45px rgb(0 0 0 / 20%);
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+}
+.bar{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 22;
+    width: 100%;
+
+}
+.img{
+    background: rgba(0, 0, 0, 0.2);
+    min-height: 300px;
+}
+    
+
+.img-block{
+    background: url(/innerbg.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+
+h1{
+    font-weight: 600 !important;
+    text-shadow: none;
+    letter-spacing: 1px;
+    color: #222222;
+    font-size: 4em !important;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    color: white;
+    background-color: #F85A40;
+}
+
+h6{
+    padding-top: 10px;
+}
+.title{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+}
+.box{
+    height: 100%;
+    background: #fff;
+    box-shadow: 0px 2px 5px 2px rgb(0 0 0 / 10%);
+    padding: 50px 40px;
+    
+}
+
+.box-p{
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: .5px;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icon-txt{
+    padding: 16px 0;
+    margin:0%;
+}
+.card-para{
+    padding: 0;
+    margin:24px 0 0 0;
+    ont-size: 15px;
+    font-weight: normal;
+    color: #555;
+}
+.card-title{
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    color: #353c4e;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 1.2;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+.head{
+    font-size: 50px;
+    color: #222;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    position: relative;
+}
+
+.headding::after{
+    position: absolute;
+    content: '';
+    background: #333;
+    width: 50%;
+    height: 2px;
+    bottom: 0%;
+    left: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.orange-section-head{
+    font-size: 37px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.orange-section-para{
+    font-size: 15px;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 16px;
+}
+.footer-head{
+    color: #eee;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.footer-data{
+    font-size: 15px;
+    color: #777;
+    font-weight: normal;
+    letter-spacing: .5px;
+    margin: 0;
+    line-height: 1.9em;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 0 !important;
+}
+.footer-biger-data{
+    color: #666;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    padding-top: 0 !important;
+}
+.footer-orange{
+    color: #f85a40;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    padding-top: 0 !important;
+}
+.subscribe-btn{
+    background: #f85a40;
+    color: #fff;
+    font-size: 14px;
+    width: 34% !important;
+    letter-spacing: 1px;
+    padding: 12px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.input{
+    background: #fff;
+    box-shadow: none !important;
+    padding: 12px 15px;
+    color: #777;
+    font-size: 14px;
+    width: 65% !important;
+    border: none;
+    letter-spacing: 1px;
+    outline: none;
+    padding: 12px 15px;;
+}
+.footer-icon{
+    padding: 10px;
+}
