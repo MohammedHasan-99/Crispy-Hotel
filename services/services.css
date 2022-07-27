@@ -88,7 +88,7 @@ display: none !important;
 
 
 .img-block{
-    background: url(/innerbg.jpg) no-repeat center;
+    background: url(../img/innerbg.jpg) no-repeat center;
     background-size: cover;
     min-height: 300px;
 }
