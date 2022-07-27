@@ -20,6 +20,14 @@ p{
     font-family: 'Open Sans', sans-serif;
     padding: 10px 0;
 }
+.menue{
+    display: flex !important;
+   justify-content:center;
+   align-items:center;
+}
+.menue-btn{
+display: none !important;
+}
 
 .slider-btn{
     border-radius: 0px !important;
@@ -37,8 +45,35 @@ p{
     padding: 20px 0;
     width: 90% !important;
  }
+ .menue{
+    display: none !important;
+ }
+ .menue-btn{
+    display: flex !important;
+    justify-content:center;
+    align-items:center;
+    margin-left: 15px;
+ }
 
+}
+.new-menue{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color:white; 
+}
+.new-tab{
+    color: black;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
 
+   
 }
 
 h1{
